@@ -1,0 +1,601 @@
+kernel/fs/nfs_common/nfs_acl.ko.xz: kernel/net/sunrpc/sunrpc.ko.xz
+kernel/fs/nfs_common/grace.ko.xz:
+kernel/fs/nls/nls_cp737.ko.xz:
+kernel/fs/nls/nls_cp775.ko.xz:
+kernel/fs/nls/nls_cp852.ko.xz:
+kernel/fs/nls/nls_cp855.ko.xz:
+kernel/fs/nls/nls_cp857.ko.xz:
+kernel/fs/nls/nls_cp860.ko.xz:
+kernel/fs/nls/nls_cp861.ko.xz:
+kernel/fs/nls/nls_cp862.ko.xz:
+kernel/fs/nls/nls_cp863.ko.xz:
+kernel/fs/nls/nls_cp864.ko.xz:
+kernel/fs/nls/nls_cp865.ko.xz:
+kernel/fs/nls/nls_cp866.ko.xz:
+kernel/fs/nls/nls_cp869.ko.xz:
+kernel/fs/nls/nls_cp874.ko.xz:
+kernel/fs/nls/nls_cp932.ko.xz:
+kernel/fs/nls/nls_euc-jp.ko.xz:
+kernel/fs/nls/nls_cp936.ko.xz:
+kernel/fs/nls/nls_cp949.ko.xz:
+kernel/fs/nls/nls_cp950.ko.xz:
+kernel/fs/nls/nls_cp1250.ko.xz:
+kernel/fs/nls/nls_cp1251.ko.xz:
+kernel/fs/nls/nls_iso8859-1.ko.xz:
+kernel/fs/nls/nls_iso8859-2.ko.xz:
+kernel/fs/nls/nls_iso8859-3.ko.xz:
+kernel/fs/nls/nls_iso8859-4.ko.xz:
+kernel/fs/nls/nls_iso8859-5.ko.xz:
+kernel/fs/nls/nls_iso8859-6.ko.xz:
+kernel/fs/nls/nls_iso8859-7.ko.xz:
+kernel/fs/nls/nls_cp1255.ko.xz:
+kernel/fs/nls/nls_iso8859-9.ko.xz:
+kernel/fs/nls/nls_iso8859-13.ko.xz:
+kernel/fs/nls/nls_iso8859-14.ko.xz:
+kernel/fs/nls/nls_iso8859-15.ko.xz:
+kernel/fs/nls/nls_koi8-r.ko.xz:
+kernel/fs/nls/nls_koi8-u.ko.xz:
+kernel/fs/nls/nls_koi8-ru.ko.xz:
+kernel/fs/nls/mac-celtic.ko.xz:
+kernel/fs/nls/mac-centeuro.ko.xz:
+kernel/fs/nls/mac-croatian.ko.xz:
+kernel/fs/nls/mac-cyrillic.ko.xz:
+kernel/fs/nls/mac-gaelic.ko.xz:
+kernel/fs/nls/mac-greek.ko.xz:
+kernel/fs/nls/mac-iceland.ko.xz:
+kernel/fs/nls/mac-inuit.ko.xz:
+kernel/fs/nls/mac-romanian.ko.xz:
+kernel/fs/nls/mac-roman.ko.xz:
+kernel/fs/nls/mac-turkish.ko.xz:
+kernel/fs/pstore/ramoops.ko.xz: kernel/lib/reed_solomon/reed_solomon.ko.xz
+kernel/fs/binfmt_misc.ko.xz:
+kernel/fs/fscache/fscache.ko.xz:
+kernel/fs/cramfs/cramfs.ko.xz:
+kernel/fs/squashfs/squashfs.ko.xz: kernel/lib/lz4/lz4_decompress.ko.xz
+kernel/fs/fat/fat.ko.xz:
+kernel/fs/fat/vfat.ko.xz: kernel/fs/fat/fat.ko.xz
+kernel/fs/fat/msdos.ko.xz: kernel/fs/fat/fat.ko.xz
+kernel/fs/isofs/isofs.ko.xz:
+kernel/fs/nfs/nfs.ko.xz: kernel/fs/lockd/lockd.ko.xz kernel/fs/nfs_common/grace.ko.xz kernel/net/sunrpc/sunrpc.ko.xz kernel/fs/fscache/fscache.ko.xz
+kernel/fs/nfs/nfsv3.ko.xz: kernel/fs/nfs_common/nfs_acl.ko.xz kernel/fs/nfs/nfs.ko.xz kernel/fs/lockd/lockd.ko.xz kernel/fs/nfs_common/grace.ko.xz kernel/net/sunrpc/sunrpc.ko.xz kernel/fs/fscache/fscache.ko.xz
+kernel/fs/nfs/nfsv4.ko.xz: kernel/net/dns_resolver/dns_resolver.ko.xz kernel/fs/nfs/nfs.ko.xz kernel/fs/lockd/lockd.ko.xz kernel/fs/nfs_common/grace.ko.xz kernel/net/sunrpc/sunrpc.ko.xz kernel/fs/fscache/fscache.ko.xz
+kernel/fs/nfs/filelayout/nfs_layout_nfsv41_files.ko.xz: kernel/fs/nfs/nfsv4.ko.xz kernel/net/dns_resolver/dns_resolver.ko.xz kernel/fs/nfs/nfs.ko.xz kernel/fs/lockd/lockd.ko.xz kernel/fs/nfs_common/grace.ko.xz kernel/net/sunrpc/sunrpc.ko.xz kernel/fs/fscache/fscache.ko.xz
+kernel/fs/nfs/blocklayout/blocklayoutdriver.ko.xz: kernel/fs/nfs/nfsv4.ko.xz kernel/net/dns_resolver/dns_resolver.ko.xz kernel/fs/nfs/nfs.ko.xz kernel/fs/lockd/lockd.ko.xz kernel/fs/nfs_common/grace.ko.xz kernel/net/sunrpc/sunrpc.ko.xz kernel/fs/fscache/fscache.ko.xz
+kernel/fs/nfs/flexfilelayout/nfs_layout_flexfiles.ko.xz: kernel/fs/nfs/nfsv4.ko.xz kernel/net/dns_resolver/dns_resolver.ko.xz kernel/fs/nfs/nfs.ko.xz kernel/fs/lockd/lockd.ko.xz kernel/fs/nfs_common/grace.ko.xz kernel/net/sunrpc/sunrpc.ko.xz kernel/fs/fscache/fscache.ko.xz
+kernel/fs/nfsd/nfsd.ko.xz: kernel/net/sunrpc/auth_gss/auth_rpcgss.ko.xz kernel/fs/nfs_common/nfs_acl.ko.xz kernel/fs/lockd/lockd.ko.xz kernel/fs/nfs_common/grace.ko.xz kernel/net/sunrpc/sunrpc.ko.xz
+kernel/fs/lockd/lockd.ko.xz: kernel/fs/nfs_common/grace.ko.xz kernel/net/sunrpc/sunrpc.ko.xz
+kernel/fs/cifs/cifs.ko.xz: kernel/lib/crypto/libdes.ko.xz kernel/lib/crypto/libarc4.ko.xz kernel/net/dns_resolver/dns_resolver.ko.xz
+kernel/fs/fuse/fuse.ko.xz:
+kernel/fs/fuse/cuse.ko.xz: kernel/fs/fuse/fuse.ko.xz
+kernel/fs/fuse/virtiofs.ko.xz: kernel/drivers/virtio/virtio_ring.ko.xz kernel/drivers/virtio/virtio.ko.xz kernel/fs/fuse/fuse.ko.xz
+kernel/fs/overlayfs/overlay.ko.xz:
+kernel/fs/udf/udf.ko.xz: kernel/lib/crc-itu-t.ko.xz
+kernel/fs/cachefiles/cachefiles.ko.xz: kernel/fs/fscache/fscache.ko.xz
+kernel/fs/ceph/ceph.ko.xz: kernel/net/ceph/libceph.ko.xz
+kernel/security/keys/encrypted-keys/encrypted-keys.ko.xz:
+kernel/crypto/asymmetric_keys/pkcs8_key_parser.ko.xz:
+kernel/crypto/crypto_engine.ko.xz:
+kernel/crypto/echainiv.ko.xz:
+kernel/crypto/crypto_user.ko.xz:
+kernel/crypto/cmac.ko.xz:
+kernel/crypto/vmac.ko.xz:
+kernel/crypto/xcbc.ko.xz:
+kernel/crypto/md4.ko.xz:
+kernel/crypto/rmd128.ko.xz:
+kernel/crypto/rmd160.ko.xz:
+kernel/crypto/rmd256.ko.xz:
+kernel/crypto/rmd320.ko.xz:
+kernel/crypto/sha512_generic.ko.xz:
+kernel/crypto/streebog_generic.ko.xz:
+kernel/crypto/wp512.ko.xz:
+kernel/crypto/tgr192.ko.xz:
+kernel/crypto/pcbc.ko.xz:
+kernel/crypto/cts.ko.xz:
+kernel/crypto/lrw.ko.xz:
+kernel/crypto/xts.ko.xz:
+kernel/crypto/ccm.ko.xz:
+kernel/crypto/chacha20poly1305.ko.xz:
+kernel/crypto/pcrypt.ko.xz:
+kernel/crypto/des_generic.ko.xz: kernel/lib/crypto/libdes.ko.xz
+kernel/crypto/fcrypt.ko.xz:
+kernel/crypto/blowfish_generic.ko.xz: kernel/crypto/blowfish_common.ko.xz
+kernel/crypto/blowfish_common.ko.xz:
+kernel/crypto/twofish_generic.ko.xz: kernel/crypto/twofish_common.ko.xz
+kernel/crypto/twofish_common.ko.xz:
+kernel/crypto/serpent_generic.ko.xz:
+kernel/crypto/camellia_generic.ko.xz:
+kernel/crypto/cast_common.ko.xz:
+kernel/crypto/cast5_generic.ko.xz: kernel/crypto/cast_common.ko.xz
+kernel/crypto/cast6_generic.ko.xz: kernel/crypto/cast_common.ko.xz
+kernel/crypto/arc4.ko.xz: kernel/lib/crypto/libarc4.ko.xz
+kernel/crypto/tea.ko.xz:
+kernel/crypto/khazad.ko.xz:
+kernel/crypto/anubis.ko.xz:
+kernel/crypto/seed.ko.xz:
+kernel/crypto/salsa20_generic.ko.xz:
+kernel/crypto/chacha_generic.ko.xz:
+kernel/crypto/poly1305_generic.ko.xz:
+kernel/crypto/deflate.ko.xz:
+kernel/crypto/michael_mic.ko.xz:
+kernel/crypto/crc32_generic.ko.xz:
+kernel/crypto/authenc.ko.xz:
+kernel/crypto/authencesn.ko.xz: kernel/crypto/authenc.ko.xz
+kernel/crypto/lz4.ko.xz: kernel/lib/lz4/lz4_compress.ko.xz kernel/lib/lz4/lz4_decompress.ko.xz
+kernel/crypto/lz4hc.ko.xz: kernel/lib/lz4/lz4hc_compress.ko.xz kernel/lib/lz4/lz4_decompress.ko.xz
+kernel/crypto/842.ko.xz: kernel/lib/842/842_decompress.ko.xz kernel/lib/842/842_compress.ko.xz
+kernel/crypto/ansi_cprng.ko.xz:
+kernel/crypto/tcrypt.ko.xz:
+kernel/crypto/zstd.ko.xz:
+kernel/crypto/ecc.ko.xz:
+kernel/crypto/essiv.ko.xz: kernel/crypto/authenc.ko.xz
+kernel/crypto/curve25519-generic.ko.xz: kernel/lib/crypto/libcurve25519-generic.ko.xz
+kernel/crypto/ecdh_generic.ko.xz: kernel/crypto/ecc.ko.xz
+kernel/crypto/ecrdsa_generic.ko.xz: kernel/crypto/ecc.ko.xz
+kernel/drivers/bus/simple-pm-bus.ko.xz:
+kernel/drivers/gpio/gpio-syscon.ko.xz:
+kernel/drivers/pci/pcie/aer_inject.ko.xz:
+kernel/drivers/acpi/ac.ko.xz:
+kernel/drivers/acpi/acpi_tad.ko.xz:
+kernel/drivers/acpi/thermal.ko.xz:
+kernel/drivers/acpi/custom_method.ko.xz:
+kernel/drivers/acpi/acpi_configfs.ko.xz:
+kernel/drivers/clk/clk-scpi.ko.xz: kernel/drivers/firmware/arm_scpi.ko.xz
+kernel/drivers/dma/dw/dw_dmac_core.ko.xz:
+kernel/drivers/dma/dw/dw_dmac.ko.xz: kernel/drivers/dma/dw/dw_dmac_core.ko.xz
+kernel/drivers/dma/dw/dw_dmac_pci.ko.xz: kernel/drivers/dma/dw/dw_dmac_core.ko.xz
+kernel/drivers/dma/dw-edma/dw-edma.ko.xz:
+kernel/drivers/dma/dw-edma/dw-edma-pcie.ko.xz: kernel/drivers/dma/dw-edma/dw-edma.ko.xz
+kernel/drivers/char/virtio_console.ko.xz: kernel/drivers/virtio/virtio_ring.ko.xz kernel/drivers/virtio/virtio.ko.xz
+kernel/drivers/char/raw.ko.xz:
+kernel/drivers/block/brd.ko.xz:
+kernel/drivers/block/loop.ko.xz:
+kernel/drivers/block/nbd.ko.xz:
+kernel/drivers/block/cryptoloop.ko.xz: kernel/drivers/block/loop.ko.xz
+kernel/drivers/block/virtio_blk.ko.xz: kernel/drivers/virtio/virtio_ring.ko.xz kernel/drivers/virtio/virtio.ko.xz
+kernel/drivers/block/rbd.ko.xz: kernel/net/ceph/libceph.ko.xz
+kernel/drivers/block/zram/zram.ko.xz:
+kernel/drivers/misc/enclosure.ko.xz:
+kernel/drivers/scsi/raid_class.ko.xz:
+kernel/drivers/scsi/scsi_transport_spi.ko.xz:
+kernel/drivers/scsi/scsi_transport_fc.ko.xz:
+kernel/drivers/scsi/scsi_transport_iscsi.ko.xz:
+kernel/drivers/scsi/scsi_transport_sas.ko.xz:
+kernel/drivers/scsi/libsas/libsas.ko.xz: kernel/drivers/scsi/scsi_transport_sas.ko.xz
+kernel/drivers/scsi/scsi_transport_srp.ko.xz:
+kernel/drivers/scsi/libiscsi.ko.xz: kernel/drivers/scsi/scsi_transport_iscsi.ko.xz
+kernel/drivers/scsi/libiscsi_tcp.ko.xz: kernel/drivers/scsi/libiscsi.ko.xz kernel/drivers/scsi/scsi_transport_iscsi.ko.xz
+kernel/drivers/scsi/iscsi_tcp.ko.xz: kernel/drivers/scsi/libiscsi_tcp.ko.xz kernel/drivers/scsi/libiscsi.ko.xz kernel/drivers/scsi/scsi_transport_iscsi.ko.xz
+kernel/drivers/scsi/iscsi_boot_sysfs.ko.xz:
+kernel/drivers/scsi/virtio_scsi.ko.xz: kernel/drivers/virtio/virtio_ring.ko.xz kernel/drivers/virtio/virtio.ko.xz
+kernel/drivers/scsi/sr_mod.ko.xz: kernel/drivers/cdrom/cdrom.ko.xz
+kernel/drivers/scsi/sg.ko.xz:
+kernel/drivers/scsi/ses.ko.xz: kernel/drivers/misc/enclosure.ko.xz kernel/drivers/scsi/scsi_transport_sas.ko.xz
+kernel/drivers/nvme/host/nvme-fabrics.ko.xz:
+kernel/drivers/nvme/host/nvme-tcp.ko.xz: kernel/drivers/nvme/host/nvme-fabrics.ko.xz
+kernel/drivers/net/phy/libphy.ko.xz:
+kernel/drivers/net/phy/fixed_phy.ko.xz: kernel/drivers/net/phy/libphy.ko.xz
+kernel/drivers/net/phy/microchip.ko.xz: kernel/drivers/net/phy/libphy.ko.xz
+kernel/drivers/net/bonding/bonding.ko.xz:
+kernel/drivers/net/dummy.ko.xz:
+kernel/drivers/net/wireguard/wireguard.ko.xz: kernel/lib/crypto/libchacha20poly1305.ko.xz kernel/net/ipv6/ip6_udp_tunnel.ko.xz kernel/net/ipv4/udp_tunnel.ko.xz kernel/lib/crypto/libblake2s.ko.xz kernel/lib/crypto/libblake2s-generic.ko.xz kernel/lib/crypto/libcurve25519-generic.ko.xz
+kernel/drivers/net/ifb.ko.xz:
+kernel/drivers/net/macsec.ko.xz:
+kernel/drivers/net/macvlan.ko.xz:
+kernel/drivers/net/macvtap.ko.xz: kernel/drivers/net/macvlan.ko.xz kernel/drivers/net/tap.ko.xz
+kernel/drivers/net/netconsole.ko.xz:
+kernel/drivers/net/team/team.ko.xz:
+kernel/drivers/net/team/team_mode_broadcast.ko.xz: kernel/drivers/net/team/team.ko.xz
+kernel/drivers/net/team/team_mode_roundrobin.ko.xz: kernel/drivers/net/team/team.ko.xz
+kernel/drivers/net/team/team_mode_random.ko.xz: kernel/drivers/net/team/team.ko.xz
+kernel/drivers/net/team/team_mode_activebackup.ko.xz: kernel/drivers/net/team/team.ko.xz
+kernel/drivers/net/team/team_mode_loadbalance.ko.xz: kernel/drivers/net/team/team.ko.xz
+kernel/drivers/net/tun.ko.xz:
+kernel/drivers/net/tap.ko.xz:
+kernel/drivers/net/veth.ko.xz:
+kernel/drivers/net/virtio_net.ko.xz: kernel/drivers/net/net_failover.ko.xz kernel/net/core/failover.ko.xz kernel/drivers/virtio/virtio_ring.ko.xz kernel/drivers/virtio/virtio.ko.xz
+kernel/drivers/net/vxlan.ko.xz: kernel/net/ipv6/ip6_udp_tunnel.ko.xz kernel/net/ipv4/udp_tunnel.ko.xz
+kernel/drivers/net/geneve.ko.xz: kernel/net/ipv6/ip6_udp_tunnel.ko.xz kernel/net/ipv4/udp_tunnel.ko.xz
+kernel/drivers/net/nlmon.ko.xz:
+kernel/drivers/net/net_failover.ko.xz: kernel/net/core/failover.ko.xz
+kernel/drivers/cdrom/cdrom.ko.xz:
+kernel/drivers/ptp/ptp.ko.xz: kernel/drivers/pps/pps_core.ko.xz
+kernel/drivers/power/reset/reboot-mode.ko.xz:
+kernel/drivers/power/reset/nvmem-reboot-mode.ko.xz: kernel/drivers/power/reset/reboot-mode.ko.xz
+kernel/drivers/watchdog/sp805_wdt.ko.xz:
+kernel/drivers/watchdog/sbsa_gwdt.ko.xz:
+kernel/drivers/watchdog/wdat_wdt.ko.xz:
+kernel/drivers/md/dm-mod.ko.xz:
+kernel/drivers/md/dm-bufio.ko.xz: kernel/drivers/md/dm-mod.ko.xz
+kernel/drivers/md/dm-bio-prison.ko.xz:
+kernel/drivers/md/dm-crypt.ko.xz: kernel/drivers/md/dm-mod.ko.xz
+kernel/drivers/md/persistent-data/dm-persistent-data.ko.xz: kernel/drivers/md/dm-bufio.ko.xz kernel/drivers/md/dm-mod.ko.xz
+kernel/drivers/md/dm-thin-pool.ko.xz: kernel/drivers/md/persistent-data/dm-persistent-data.ko.xz kernel/drivers/md/dm-bufio.ko.xz kernel/drivers/md/dm-bio-prison.ko.xz kernel/drivers/md/dm-mod.ko.xz
+kernel/drivers/md/dm-writecache.ko.xz: kernel/drivers/md/dm-mod.ko.xz
+kernel/drivers/cpufreq/cpufreq-dt.ko.xz:
+kernel/drivers/cpufreq/cppc_cpufreq.ko.xz:
+kernel/drivers/cpufreq/scpi-cpufreq.ko.xz: kernel/drivers/firmware/arm_scpi.ko.xz
+kernel/drivers/firmware/efi/efibc.ko.xz:
+kernel/drivers/firmware/arm_scpi.ko.xz:
+kernel/drivers/firmware/scpi_pm_domain.ko.xz: kernel/drivers/firmware/arm_scpi.ko.xz
+kernel/drivers/firmware/qemu_fw_cfg.ko.xz:
+kernel/drivers/crypto/virtio/virtio_crypto.ko.xz: kernel/crypto/crypto_engine.ko.xz kernel/drivers/virtio/virtio_ring.ko.xz kernel/drivers/virtio/virtio.ko.xz
+kernel/drivers/of/of_mdio.ko.xz: kernel/drivers/net/phy/fixed_phy.ko.xz kernel/drivers/net/phy/libphy.ko.xz
+kernel/drivers/mailbox/arm_mhu.ko.xz:
+kernel/drivers/devfreq/governor_simpleondemand.ko.xz:
+kernel/drivers/perf/arm_dsu_pmu.ko.xz:
+kernel/drivers/perf/arm_smmuv3_pmu.ko.xz:
+kernel/drivers/perf/arm_spe_pmu.ko.xz:
+kernel/drivers/virtio/virtio.ko.xz:
+kernel/drivers/virtio/virtio_ring.ko.xz:
+kernel/drivers/connector/cn.ko.xz:
+kernel/drivers/block/aoe/aoe.ko.xz:
+kernel/drivers/pps/pps_core.ko.xz:
+kernel/drivers/hwmon/hwmon.ko.xz:
+kernel/drivers/hwmon/acpi_power_meter.ko.xz: kernel/drivers/hwmon/hwmon.ko.xz
+kernel/drivers/hwmon/scpi-hwmon.ko.xz: kernel/drivers/hwmon/hwmon.ko.xz kernel/drivers/firmware/arm_scpi.ko.xz
+kernel/drivers/hid/hid.ko.xz:
+kernel/drivers/hid/uhid.ko.xz: kernel/drivers/hid/hid.ko.xz
+kernel/drivers/hid/hid-generic.ko.xz: kernel/drivers/hid/hid.ko.xz
+kernel/drivers/interconnect/icc-core.ko.xz:
+kernel/net/core/pktgen.ko.xz:
+kernel/net/core/failover.ko.xz:
+kernel/net/802/p8022.ko.xz: kernel/net/llc/llc.ko.xz
+kernel/net/802/psnap.ko.xz: kernel/net/llc/llc.ko.xz
+kernel/net/802/stp.ko.xz: kernel/net/llc/llc.ko.xz
+kernel/net/802/garp.ko.xz: kernel/net/802/stp.ko.xz kernel/net/llc/llc.ko.xz
+kernel/net/802/mrp.ko.xz:
+kernel/net/sched/act_police.ko.xz:
+kernel/net/sched/act_gact.ko.xz:
+kernel/net/sched/act_mirred.ko.xz:
+kernel/net/sched/act_ipt.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/sched/act_nat.ko.xz:
+kernel/net/sched/act_pedit.ko.xz:
+kernel/net/sched/act_simple.ko.xz:
+kernel/net/sched/act_skbedit.ko.xz:
+kernel/net/sched/act_csum.ko.xz:
+kernel/net/sched/act_vlan.ko.xz:
+kernel/net/sched/act_tunnel_key.ko.xz:
+kernel/net/sched/sch_cbq.ko.xz:
+kernel/net/sched/sch_htb.ko.xz:
+kernel/net/sched/sch_hfsc.ko.xz:
+kernel/net/sched/sch_red.ko.xz:
+kernel/net/sched/sch_gred.ko.xz:
+kernel/net/sched/sch_ingress.ko.xz:
+kernel/net/sched/sch_dsmark.ko.xz:
+kernel/net/sched/sch_sfb.ko.xz:
+kernel/net/sched/sch_sfq.ko.xz:
+kernel/net/sched/sch_tbf.ko.xz:
+kernel/net/sched/sch_teql.ko.xz:
+kernel/net/sched/sch_prio.ko.xz:
+kernel/net/sched/sch_multiq.ko.xz:
+kernel/net/sched/sch_atm.ko.xz:
+kernel/net/sched/sch_netem.ko.xz:
+kernel/net/sched/sch_drr.ko.xz:
+kernel/net/sched/sch_plug.ko.xz:
+kernel/net/sched/sch_mqprio.ko.xz:
+kernel/net/sched/sch_choke.ko.xz:
+kernel/net/sched/sch_qfq.ko.xz:
+kernel/net/sched/sch_codel.ko.xz:
+kernel/net/sched/sch_fq_codel.ko.xz:
+kernel/net/sched/sch_fq.ko.xz:
+kernel/net/sched/sch_hhf.ko.xz:
+kernel/net/sched/sch_pie.ko.xz:
+kernel/net/sched/cls_u32.ko.xz:
+kernel/net/sched/cls_route.ko.xz:
+kernel/net/sched/cls_fw.ko.xz:
+kernel/net/sched/cls_rsvp.ko.xz:
+kernel/net/sched/cls_tcindex.ko.xz:
+kernel/net/sched/cls_rsvp6.ko.xz:
+kernel/net/sched/cls_basic.ko.xz:
+kernel/net/sched/cls_flow.ko.xz:
+kernel/net/sched/cls_bpf.ko.xz:
+kernel/net/sched/cls_flower.ko.xz:
+kernel/net/sched/cls_matchall.ko.xz:
+kernel/net/sched/em_cmp.ko.xz:
+kernel/net/sched/em_nbyte.ko.xz:
+kernel/net/sched/em_u32.ko.xz:
+kernel/net/sched/em_meta.ko.xz:
+kernel/net/sched/em_text.ko.xz:
+kernel/net/sched/em_ipset.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netlink/netlink_diag.ko.xz:
+kernel/net/netfilter/nfnetlink.ko.xz:
+kernel/net/netfilter/nfnetlink_acct.ko.xz: kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nfnetlink_queue.ko.xz: kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nfnetlink_log.ko.xz: kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nfnetlink_osf.ko.xz: kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nf_conntrack.ko.xz: kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_conntrack_netlink.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nfnetlink_cttimeout.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nfnetlink_cthelper.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nf_conntrack_amanda.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_conntrack_ftp.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_conntrack_h323.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_conntrack_irc.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_conntrack_broadcast.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_conntrack_netbios_ns.ko.xz: kernel/net/netfilter/nf_conntrack_broadcast.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_conntrack_snmp.ko.xz: kernel/net/netfilter/nf_conntrack_broadcast.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_conntrack_pptp.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_conntrack_sane.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_conntrack_sip.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_conntrack_tftp.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_log_common.ko.xz:
+kernel/net/netfilter/nf_nat.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_nat_amanda.ko.xz: kernel/net/netfilter/nf_conntrack_amanda.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_nat_ftp.ko.xz: kernel/net/netfilter/nf_conntrack_ftp.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_nat_irc.ko.xz: kernel/net/netfilter/nf_conntrack_irc.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_nat_sip.ko.xz: kernel/net/netfilter/nf_conntrack_sip.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_nat_tftp.ko.xz: kernel/net/netfilter/nf_conntrack_tftp.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_synproxy_core.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_conncount.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/nf_tables.ko.xz: kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nft_compat.ko.xz: kernel/net/netfilter/nf_tables.ko.xz kernel/net/netfilter/nfnetlink.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/nft_ct.ko.xz: kernel/net/netfilter/nf_tables.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nft_limit.ko.xz: kernel/net/netfilter/nf_tables.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nft_queue.ko.xz: kernel/net/netfilter/nf_tables.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nft_reject.ko.xz: kernel/net/netfilter/nf_tables.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nft_counter.ko.xz: kernel/net/netfilter/nf_tables.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nft_log.ko.xz: kernel/net/netfilter/nf_tables.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nft_masq.ko.xz: kernel/net/netfilter/nf_tables.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nft_redir.ko.xz: kernel/net/netfilter/nf_tables.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/nft_hash.ko.xz: kernel/net/netfilter/nf_tables.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/x_tables.ko.xz:
+kernel/net/netfilter/xt_tcpudp.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_mark.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_connmark.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_set.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_nat.ko.xz: kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_AUDIT.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_CHECKSUM.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_CLASSIFY.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_CONNSECMARK.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_CT.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_DSCP.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_HL.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_HMARK.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_LOG.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_NETMAP.ko.xz: kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_NFLOG.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_NFQUEUE.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_RATEEST.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_REDIRECT.ko.xz: kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_MASQUERADE.ko.xz: kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_SECMARK.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_TPROXY.ko.xz: kernel/net/ipv6/netfilter/nf_tproxy_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_tproxy_ipv4.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_TCPMSS.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_TCPOPTSTRIP.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_TEE.ko.xz: kernel/net/ipv6/netfilter/nf_dup_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_dup_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_TRACE.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_IDLETIMER.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_addrtype.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_bpf.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_cluster.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_comment.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_connbytes.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_connlabel.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_connlimit.ko.xz: kernel/net/netfilter/nf_conncount.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_conntrack.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_cpu.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_dccp.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_devgroup.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_dscp.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_ecn.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_esp.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_hashlimit.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_helper.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_hl.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_iprange.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_ipvs.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_length.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_limit.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_mac.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_multiport.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_nfacct.ko.xz: kernel/net/netfilter/nfnetlink_acct.ko.xz kernel/net/netfilter/nfnetlink.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_osf.ko.xz: kernel/net/netfilter/nfnetlink_osf.ko.xz kernel/net/netfilter/nfnetlink.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_owner.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_cgroup.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_physdev.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_pkttype.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_policy.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_quota.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_rateest.ko.xz: kernel/net/netfilter/xt_RATEEST.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_realm.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_recent.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_sctp.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_socket.ko.xz: kernel/net/ipv4/netfilter/nf_socket_ipv4.ko.xz kernel/net/ipv6/netfilter/nf_socket_ipv6.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_state.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_statistic.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_string.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_tcpmss.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_time.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/xt_u32.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/netfilter/ipset/ip_set.ko.xz: kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_bitmap_ip.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_bitmap_ipmac.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_bitmap_port.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_hash_ip.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_hash_ipmark.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_hash_ipport.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_hash_ipportip.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_hash_ipportnet.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_hash_mac.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_hash_net.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_hash_netport.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_hash_netiface.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_hash_netnet.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_hash_netportnet.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipset/ip_set_list_set.ko.xz: kernel/net/netfilter/ipset/ip_set.ko.xz kernel/net/netfilter/nfnetlink.ko.xz
+kernel/net/netfilter/ipvs/ip_vs.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/ipvs/ip_vs_rr.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/ipvs/ip_vs_wrr.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/ipvs/ip_vs_lc.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/ipvs/ip_vs_wlc.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/ipvs/ip_vs_fo.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/ipvs/ip_vs_ovf.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/ipvs/ip_vs_lblc.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/ipvs/ip_vs_lblcr.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/ipvs/ip_vs_dh.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/ipvs/ip_vs_sh.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/ipvs/ip_vs_sed.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/ipvs/ip_vs_nq.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/ipvs/ip_vs_ftp.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/netfilter/ipvs/ip_vs_pe_sip.ko.xz: kernel/net/netfilter/ipvs/ip_vs.ko.xz kernel/net/netfilter/nf_conntrack_sip.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz:
+kernel/net/ipv4/netfilter/nf_socket_ipv4.ko.xz:
+kernel/net/ipv4/netfilter/nf_tproxy_ipv4.ko.xz:
+kernel/net/ipv4/netfilter/nf_log_arp.ko.xz: kernel/net/netfilter/nf_log_common.ko.xz
+kernel/net/ipv4/netfilter/nf_log_ipv4.ko.xz: kernel/net/netfilter/nf_log_common.ko.xz
+kernel/net/ipv4/netfilter/nf_reject_ipv4.ko.xz:
+kernel/net/ipv4/netfilter/nf_nat_h323.ko.xz: kernel/net/netfilter/nf_conntrack_h323.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/ipv4/netfilter/nf_nat_pptp.ko.xz: kernel/net/netfilter/nf_conntrack_pptp.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/ipv4/netfilter/nf_nat_snmp_basic.ko.xz: kernel/net/netfilter/nf_conntrack_snmp.ko.xz kernel/net/netfilter/nf_conntrack_broadcast.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/ipv4/netfilter/ip_tables.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv4/netfilter/iptable_filter.ko.xz: kernel/net/ipv4/netfilter/ip_tables.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv4/netfilter/iptable_mangle.ko.xz: kernel/net/ipv4/netfilter/ip_tables.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv4/netfilter/iptable_nat.ko.xz: kernel/net/ipv4/netfilter/ip_tables.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv4/netfilter/iptable_raw.ko.xz: kernel/net/ipv4/netfilter/ip_tables.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv4/netfilter/ipt_ah.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv4/netfilter/ipt_rpfilter.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv4/netfilter/ipt_CLUSTERIP.ko.xz: kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv4/netfilter/ipt_ECN.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv4/netfilter/ipt_REJECT.ko.xz: kernel/net/ipv4/netfilter/nf_reject_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv4/netfilter/ipt_SYNPROXY.ko.xz: kernel/net/netfilter/nf_synproxy_core.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv4/netfilter/arp_tables.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv4/netfilter/arpt_mangle.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv4/netfilter/arptable_filter.ko.xz: kernel/net/ipv4/netfilter/arp_tables.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv4/netfilter/nf_dup_ipv4.ko.xz:
+kernel/net/ipv4/ip_tunnel.ko.xz:
+kernel/net/ipv4/ipip.ko.xz: kernel/net/ipv4/tunnel4.ko.xz kernel/net/ipv4/ip_tunnel.ko.xz
+kernel/net/ipv4/gre.ko.xz:
+kernel/net/ipv4/ip_gre.ko.xz: kernel/net/ipv4/gre.ko.xz kernel/net/ipv4/ip_tunnel.ko.xz
+kernel/net/ipv4/udp_tunnel.ko.xz:
+kernel/net/ipv4/ip_vti.ko.xz: kernel/net/ipv4/tunnel4.ko.xz kernel/net/ipv4/ip_tunnel.ko.xz
+kernel/net/ipv4/ah4.ko.xz:
+kernel/net/ipv4/esp4.ko.xz:
+kernel/net/ipv4/ipcomp.ko.xz: kernel/net/xfrm/xfrm_ipcomp.ko.xz
+kernel/net/ipv4/xfrm4_tunnel.ko.xz: kernel/net/ipv4/tunnel4.ko.xz
+kernel/net/ipv4/tunnel4.ko.xz:
+kernel/net/ipv4/inet_diag.ko.xz:
+kernel/net/ipv4/tcp_diag.ko.xz: kernel/net/ipv4/inet_diag.ko.xz
+kernel/net/ipv4/udp_diag.ko.xz: kernel/net/ipv4/inet_diag.ko.xz
+kernel/net/ipv4/tcp_bic.ko.xz:
+kernel/net/ipv4/tcp_dctcp.ko.xz:
+kernel/net/ipv4/tcp_westwood.ko.xz:
+kernel/net/ipv4/tcp_highspeed.ko.xz:
+kernel/net/ipv4/tcp_hybla.ko.xz:
+kernel/net/ipv4/tcp_htcp.ko.xz:
+kernel/net/ipv4/tcp_vegas.ko.xz:
+kernel/net/ipv4/tcp_nv.ko.xz:
+kernel/net/ipv4/tcp_veno.ko.xz:
+kernel/net/ipv4/tcp_scalable.ko.xz:
+kernel/net/ipv4/tcp_lp.ko.xz:
+kernel/net/ipv4/tcp_yeah.ko.xz: kernel/net/ipv4/tcp_vegas.ko.xz
+kernel/net/ipv4/tcp_illinois.ko.xz:
+kernel/net/xfrm/xfrm_ipcomp.ko.xz:
+kernel/net/unix/unix_diag.ko.xz:
+kernel/net/ipv6/netfilter/ip6_tables.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/netfilter/ip6table_filter.ko.xz: kernel/net/ipv6/netfilter/ip6_tables.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/netfilter/ip6table_mangle.ko.xz: kernel/net/ipv6/netfilter/ip6_tables.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/netfilter/ip6table_raw.ko.xz: kernel/net/ipv6/netfilter/ip6_tables.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/netfilter/ip6table_nat.ko.xz: kernel/net/ipv6/netfilter/ip6_tables.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz:
+kernel/net/ipv6/netfilter/nf_socket_ipv6.ko.xz:
+kernel/net/ipv6/netfilter/nf_tproxy_ipv6.ko.xz:
+kernel/net/ipv6/netfilter/nf_log_ipv6.ko.xz: kernel/net/netfilter/nf_log_common.ko.xz
+kernel/net/ipv6/netfilter/nf_reject_ipv6.ko.xz:
+kernel/net/ipv6/netfilter/nf_dup_ipv6.ko.xz:
+kernel/net/ipv6/netfilter/ip6t_ah.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/netfilter/ip6t_eui64.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/netfilter/ip6t_frag.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/netfilter/ip6t_ipv6header.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/netfilter/ip6t_mh.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/netfilter/ip6t_hbh.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/netfilter/ip6t_rpfilter.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/netfilter/ip6t_rt.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/netfilter/ip6t_REJECT.ko.xz: kernel/net/ipv6/netfilter/nf_reject_ipv6.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/netfilter/ip6t_SYNPROXY.ko.xz: kernel/net/netfilter/nf_synproxy_core.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/ipv6/ah6.ko.xz:
+kernel/net/ipv6/esp6.ko.xz:
+kernel/net/ipv6/ipcomp6.ko.xz: kernel/net/ipv6/xfrm6_tunnel.ko.xz kernel/net/ipv6/tunnel6.ko.xz kernel/net/xfrm/xfrm_ipcomp.ko.xz
+kernel/net/ipv6/xfrm6_tunnel.ko.xz: kernel/net/ipv6/tunnel6.ko.xz
+kernel/net/ipv6/tunnel6.ko.xz:
+kernel/net/ipv6/mip6.ko.xz:
+kernel/net/ipv6/ip6_vti.ko.xz: kernel/net/ipv6/ip6_tunnel.ko.xz kernel/net/ipv6/tunnel6.ko.xz
+kernel/net/ipv6/sit.ko.xz: kernel/net/ipv4/tunnel4.ko.xz kernel/net/ipv4/ip_tunnel.ko.xz
+kernel/net/ipv6/ip6_tunnel.ko.xz: kernel/net/ipv6/tunnel6.ko.xz
+kernel/net/ipv6/ip6_gre.ko.xz: kernel/net/ipv4/gre.ko.xz kernel/net/ipv6/ip6_tunnel.ko.xz kernel/net/ipv6/tunnel6.ko.xz
+kernel/net/ipv6/ip6_udp_tunnel.ko.xz:
+kernel/net/packet/af_packet_diag.ko.xz:
+kernel/net/8021q/8021q.ko.xz: kernel/net/802/garp.ko.xz kernel/net/802/stp.ko.xz kernel/net/802/mrp.ko.xz kernel/net/llc/llc.ko.xz
+kernel/net/mpls/mpls_gso.ko.xz:
+kernel/net/llc/llc.ko.xz:
+kernel/net/key/af_key.ko.xz:
+kernel/net/bridge/netfilter/ebtables.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebtable_broute.ko.xz: kernel/net/bridge/netfilter/ebtables.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebtable_filter.ko.xz: kernel/net/bridge/netfilter/ebtables.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebtable_nat.ko.xz: kernel/net/bridge/netfilter/ebtables.ko.xz kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_802_3.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_among.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_arp.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_ip.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_ip6.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_limit.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_mark_m.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_pkttype.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_stp.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_vlan.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_arpreply.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_mark.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_dnat.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_redirect.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_snat.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_log.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/netfilter/ebt_nflog.ko.xz: kernel/net/netfilter/x_tables.ko.xz
+kernel/net/bridge/bridge.ko.xz: kernel/net/802/stp.ko.xz kernel/net/llc/llc.ko.xz
+kernel/net/bridge/br_netfilter.ko.xz: kernel/net/bridge/bridge.ko.xz kernel/net/802/stp.ko.xz kernel/net/llc/llc.ko.xz
+kernel/net/sunrpc/sunrpc.ko.xz:
+kernel/net/sunrpc/auth_gss/auth_rpcgss.ko.xz: kernel/net/sunrpc/sunrpc.ko.xz
+kernel/net/sunrpc/auth_gss/rpcsec_gss_krb5.ko.xz: kernel/net/sunrpc/auth_gss/auth_rpcgss.ko.xz kernel/net/sunrpc/sunrpc.ko.xz
+kernel/net/atm/atm.ko.xz:
+kernel/net/atm/clip.ko.xz: kernel/net/atm/atm.ko.xz
+kernel/net/atm/br2684.ko.xz: kernel/net/atm/atm.ko.xz
+kernel/net/atm/lec.ko.xz: kernel/net/atm/atm.ko.xz
+kernel/net/l2tp/l2tp_core.ko.xz: kernel/net/ipv6/ip6_udp_tunnel.ko.xz kernel/net/ipv4/udp_tunnel.ko.xz
+kernel/net/l2tp/l2tp_ip.ko.xz: kernel/net/l2tp/l2tp_core.ko.xz kernel/net/ipv6/ip6_udp_tunnel.ko.xz kernel/net/ipv4/udp_tunnel.ko.xz
+kernel/net/l2tp/l2tp_netlink.ko.xz: kernel/net/l2tp/l2tp_core.ko.xz kernel/net/ipv6/ip6_udp_tunnel.ko.xz kernel/net/ipv4/udp_tunnel.ko.xz
+kernel/net/l2tp/l2tp_eth.ko.xz: kernel/net/l2tp/l2tp_netlink.ko.xz kernel/net/l2tp/l2tp_core.ko.xz kernel/net/ipv6/ip6_udp_tunnel.ko.xz kernel/net/ipv4/udp_tunnel.ko.xz
+kernel/net/l2tp/l2tp_debugfs.ko.xz: kernel/net/l2tp/l2tp_core.ko.xz kernel/net/ipv6/ip6_udp_tunnel.ko.xz kernel/net/ipv4/udp_tunnel.ko.xz
+kernel/net/l2tp/l2tp_ip6.ko.xz: kernel/net/l2tp/l2tp_ip.ko.xz kernel/net/l2tp/l2tp_core.ko.xz kernel/net/ipv6/ip6_udp_tunnel.ko.xz kernel/net/ipv4/udp_tunnel.ko.xz
+kernel/net/sctp/sctp.ko.xz:
+kernel/net/sctp/sctp_diag.ko.xz: kernel/net/sctp/sctp.ko.xz kernel/net/ipv4/inet_diag.ko.xz
+kernel/net/dns_resolver/dns_resolver.ko.xz:
+kernel/net/ceph/libceph.ko.xz:
+kernel/net/openvswitch/openvswitch.ko.xz: kernel/net/nsh/nsh.ko.xz kernel/net/netfilter/nf_conncount.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/openvswitch/vport-vxlan.ko.xz: kernel/drivers/net/vxlan.ko.xz kernel/net/openvswitch/openvswitch.ko.xz kernel/net/nsh/nsh.ko.xz kernel/net/netfilter/nf_conncount.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/ipv6/ip6_udp_tunnel.ko.xz kernel/net/ipv4/udp_tunnel.ko.xz
+kernel/net/openvswitch/vport-geneve.ko.xz: kernel/drivers/net/geneve.ko.xz kernel/net/openvswitch/openvswitch.ko.xz kernel/net/nsh/nsh.ko.xz kernel/net/netfilter/nf_conncount.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz kernel/net/ipv6/ip6_udp_tunnel.ko.xz kernel/net/ipv4/udp_tunnel.ko.xz
+kernel/net/openvswitch/vport-gre.ko.xz: kernel/net/ipv4/ip_gre.ko.xz kernel/net/openvswitch/openvswitch.ko.xz kernel/net/nsh/nsh.ko.xz kernel/net/ipv4/gre.ko.xz kernel/net/ipv4/ip_tunnel.ko.xz kernel/net/netfilter/nf_conncount.ko.xz kernel/net/netfilter/nf_nat.ko.xz kernel/net/netfilter/nf_conntrack.ko.xz kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko.xz kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+kernel/net/vmw_vsock/vsock.ko.xz:
+kernel/net/vmw_vsock/vsock_diag.ko.xz: kernel/net/vmw_vsock/vsock.ko.xz
+kernel/net/vmw_vsock/vmw_vsock_virtio_transport.ko.xz: kernel/net/vmw_vsock/vmw_vsock_virtio_transport_common.ko.xz kernel/net/vmw_vsock/vsock.ko.xz kernel/drivers/virtio/virtio_ring.ko.xz kernel/drivers/virtio/virtio.ko.xz
+kernel/net/vmw_vsock/vmw_vsock_virtio_transport_common.ko.xz: kernel/net/vmw_vsock/vsock.ko.xz
+kernel/net/nsh/nsh.ko.xz:
+kernel/lib/math/cordic.ko.xz:
+kernel/lib/crypto/libarc4.ko.xz:
+kernel/lib/crypto/libblake2s-generic.ko.xz:
+kernel/lib/crypto/libblake2s.ko.xz: kernel/lib/crypto/libblake2s-generic.ko.xz
+kernel/lib/crypto/libchacha20poly1305.ko.xz:
+kernel/lib/crypto/libcurve25519-generic.ko.xz:
+kernel/lib/crypto/libcurve25519.ko.xz: kernel/lib/crypto/libcurve25519-generic.ko.xz
+kernel/lib/crypto/libdes.ko.xz:
+kernel/lib/xz/xz_dec_test.ko.xz:
+kernel/lib/crc-itu-t.ko.xz:
+kernel/lib/crc7.ko.xz:
+kernel/lib/crc8.ko.xz:
+kernel/lib/842/842_compress.ko.xz:
+kernel/lib/842/842_decompress.ko.xz:
+kernel/lib/reed_solomon/reed_solomon.ko.xz:
+kernel/lib/lz4/lz4_compress.ko.xz:
+kernel/lib/lz4/lz4hc_compress.ko.xz:
+kernel/lib/lz4/lz4_decompress.ko.xz:
+kernel/lib/ts_kmp.ko.xz:
+kernel/lib/ts_bm.ko.xz:
+kernel/lib/ts_fsm.ko.xz:
